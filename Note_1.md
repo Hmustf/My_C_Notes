@@ -75,3 +75,50 @@
 2. Be aware of which C standard your compiler supports
 3. Some keywords might behave differently across different platforms
 4. Avoid using names that are too similar to keywords for better code readability
+
+## Complete Keywords Reference Table
+
+| Keyword | Category | Description | Standard |
+|---------|----------|-------------|-----------|
+| `auto` | Storage Class | Automatic storage duration | C89 |
+| `break` | Control Flow | Exit from loop/switch | C89 |
+| `case` | Control Flow | Label in switch statement | C89 |
+| `char` | Data Type | Character data type | C89 |
+| `const` | Type Qualifier | Constant value | C89 |
+| `continue` | Control Flow | Skip to next iteration | C89 |
+| `default` | Control Flow | Default label in switch | C89 |
+| `do` | Loop | Do-while loop | C89 |
+| `double` | Data Type | Double-precision floating-point | C89 |
+| `else` | Control Flow | Alternative branch in conditional | C89 |
+| `enum` | Structure | Enumeration declaration | C89 |
+| `extern` | Storage Class | External linkage | C89 |
+| `float` | Data Type | Single-precision floating-point | C89 |
+| `for` | Loop | For loop | C89 |
+| `goto` | Control Flow | Jump to label | C89 |
+| `if` | Control Flow | Conditional statement | C89 |
+| `int` | Data Type | Integer data type | C89 |
+| `long` | Data Type | Long integer data type | C89 |
+| `register` | Storage Class | Register storage class | C89 |
+| `return` | Control Flow | Return from function | C89 |
+| `short` | Data Type | Short integer data type | C89 |
+| `signed` | Data Type | Signed modifier | C89 |
+| `sizeof` | Operator | Size of type/variable | C89 |
+| `static` | Storage Class | Static storage duration | C89 |
+| `struct` | Structure | Structure declaration | C89 |
+| `switch` | Control Flow | Multi-way decision | C89 |
+| `typedef` | Structure | Create type alias | C89 |
+| `union` | Structure | Union declaration | C89 |
+| `unsigned` | Data Type | Unsigned modifier | C89 |
+| `void` | Data Type | Empty data type | C89 |
+| `volatile` | Type Qualifier | Value may change unexpectedly | C89 |
+| `while` | Loop | While loop | C89 |
+| `_Bool` | Data Type | Boolean data type | C99 |
+| `_Complex` | Data Type | Complex number type | C99 |
+| `_Imaginary` | Data Type | Imaginary number type | C99 |
+| `inline` | Function | Inline function hint | C99 |
+| `restrict` | Type Qualifier | Pointer optimization hint | C99 |
+| `_Alignas` | Alignment | Specify alignment | C11 |
+| `_Alignof` | Alignment | Query alignment | C11 |
+| `_Atomic` | Type Qualifier | Atomic type specifier | C11 |
+| `_Noreturn` | Function | Function does not return | C11 |
+| `_Thread_local` | Storage Class | Thread-local storage | C11 |
