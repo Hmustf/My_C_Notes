@@ -1,7 +1,5 @@
 # C Programming Language Keywords
 
-C has a set of reserved keywords that have special meanings and cannot be used as identifiers in programs. Here's a comprehensive list of all C keywords organized by categories:
-
 ## Data Types
 - `int` - Integer data type
 - `char` - Character data type
